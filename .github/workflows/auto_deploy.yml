@@ -31,4 +31,3 @@ jobs:
       run: npm install --global surge
     - name: deploying using surge
       run: surge ./ salahbootcamp2020website.surge.sh --token $ {{ secrets.SURGE_TOKEN_KEY }}
-        
